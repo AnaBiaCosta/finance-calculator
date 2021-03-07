@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Trabalho prático 1</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <h1>Financiamento financeiro</h1>
+
+      <h2>Simulação de financiamento</h2>
+      <div class="form-container">
+        <div class="input-container">
+          <div class="fields">
+            <labe>Valor:</labe>
+            <input type="number" value="200.00" id="input-value" />
+          </div>
+          <div class="fields">
+            <labe>Prazo (anos):</labe>
+            <input type="number" value="20" id="input-deadline" />
+          </div>
+          <div class="fields">
+            <labe>Juros ao ano:</labe>
+            <input type="number" value="0.08" id="input-fees" />
+          </div>
+        </div>
+        <button class="form-button" id="submit-button">Simular</button>
+      </div>
+
+      <h2>Resultado</h2>
+      <div class="input-container">
+        <div class="fields">
+          <labe>Prazo (meses):</labe>
+          <input type="number" id="input-result-deadline" />
+        </div>
+        <div class="fields">
+          <labe>Juros ao mês:</labe>
+          <input type="number" id="input-result-fees-month" />
+        </div>
+        <div class="fields">
+          <labe>Juros acumulados:</labe>
+          <input type="number" id="input-result-fees-accumulated" />
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <th>Prestação</th>
+          <th>Amortização</th>
+          <th>Juros</th>
+          <th>Total</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>833.33</td>
+            <td>1286.81</td>
+            <td>2120.14</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>833.33</td>
+            <td>1286.81</td>
+            <td>2120.14</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
