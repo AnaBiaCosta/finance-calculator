@@ -9,11 +9,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Trabalho prático 1</title>
+    <title>Calculadora de financiamento</title>
   </head>
   <body>
     <main class="main-container">
-      <h1>Financiamento financeiro</h1>
+      <h1>Calculadora de financiamento</h1>
 
       <h2>Simulação de financiamento</h2>
       <div class="form-container">
@@ -34,31 +34,33 @@
         <button class="form-button" id="submit-button">Simular</button>
       </div>
 
-      <h2>Resultado</h2>
-      <div class="input-container">
-        <div class="fields">
-          <labe>Prazo (meses):</labe>
-          <input type="number" id="input-result-deadline" />
+      <div class="result-container">
+        <h2>Resultado</h2>
+        <div class="input-container">
+          <div class="fields">
+            <labe>Prazo (meses):</labe>
+            <input type="number" id="input-result-deadline" />
+          </div>
+          <div class="fields">
+            <labe>Juros ao mês:</labe>
+            <input type="number" id="input-result-fees-month" />
+          </div>
+          <div class="fields">
+            <labe>Juros acumulados:</labe>
+            <input type="number" id="input-result-fees-accumulated" />
+          </div>
         </div>
-        <div class="fields">
-          <labe>Juros ao mês:</labe>
-          <input type="number" id="input-result-fees-month" />
-        </div>
-        <div class="fields">
-          <labe>Juros acumulados:</labe>
-          <input type="number" id="input-result-fees-accumulated" />
-        </div>
-      </div>
 
-      <table class="table">
-        <thead>
-          <th>Prestação</th>
-          <th>Amortização</th>
-          <th>Juros</th>
-          <th>Total</th>
-        </thead>
-        <tbody class="table-body"></tbody>
-      </table>
+        <table>
+          <thead>
+            <th>Prestação</th>
+            <th>Amortização</th>
+            <th>Juros</th>
+            <th>Total</th>
+          </thead>
+          <tbody class="table-body"></tbody>
+        </table>
+      </div>
     </main>
     <script src="./script.js"></script>
   </body>

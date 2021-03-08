@@ -1,7 +1,7 @@
 const inputTotalValue = document.querySelector("#input-total-value")
 const inputDeadline = document.querySelector("#input-deadline")
 const inputFees = document.querySelector("#input-fees")
-const table = document.querySelector(".table")
+const resultContainer = document.querySelector(".result-container")
 const tableBody = document.querySelector(".table-body")
 
 const inputResultDeadline = document.querySelector("#input-result-deadline")
@@ -11,7 +11,7 @@ const inputResultFeesAccumulated = document.querySelector(
 )
 
 const showValues = (values) => {
-  table.style.display = "block"
+  resultContainer.style.display = "block"
 
   values.map(
     (value) =>

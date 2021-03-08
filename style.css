@@ -20,6 +20,10 @@ h2 {
   margin-bottom: 24px;
 }
 
+.result-container {
+  display: none;
+}
+
 .form-container {
   margin-bottom: 100px;
 }
@@ -53,7 +57,6 @@ h2 {
 
 table {
   margin-top: 48px;
-  display: none;
 }
 
 table th {
