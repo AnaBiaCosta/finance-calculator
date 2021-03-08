@@ -53,6 +53,7 @@ h2 {
 
 table {
   margin-top: 48px;
+  display: none;
 }
 
 table th {
