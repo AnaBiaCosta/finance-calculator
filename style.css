@@ -42,7 +42,7 @@ h2 {
   color: #fff;
   border-radius: 4px;
   padding: 8px 16px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ table {
 }
 
 table th {
-  width: 250px;
+  width: 300px;
   padding: 8px 0;
   border-bottom: 2px solid #51b6b2;
   color: #51b6b2;
