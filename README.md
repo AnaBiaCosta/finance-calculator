@@ -1,2 +1,2 @@
-# finance-calculator
+# financing-calculator
 A financing calculator using javascript vanilla 
